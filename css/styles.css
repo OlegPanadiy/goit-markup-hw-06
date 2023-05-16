@@ -282,12 +282,6 @@ input {
   width: 264px;
   margin-right: 120px;
 }
-/* .subscribe-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
-} */
 .subscribe-btn {
   display: flex;
   justify-content: center;
@@ -828,6 +822,14 @@ input {
 
   margin-bottom: 16px;
 }
+.form-comment::placeholder {
+  line-height: 1.17;
+
+  letter-spacing: 0.04em;
+
+  color: var(--color-navy-blue-modal);
+}
+
 .form-agreement {
   display: flex;
 
