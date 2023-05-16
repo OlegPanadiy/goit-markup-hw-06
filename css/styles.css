@@ -282,12 +282,12 @@ input {
   width: 264px;
   margin-right: 120px;
 }
-.subscribe-wrapper {
+/* .subscribe-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
-}
+} */
 .subscribe-btn {
   display: flex;
   justify-content: center;
@@ -313,13 +313,13 @@ input {
   background-color: var(--color-ocean);
 }
 .footer-subscribe {
-  width: 264px;
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 24px;
 }
 .footer-subscribe-form {
-  width: 100%;
+  width: 264px;
   height: 40px;
   background-color: transparent;
   border: 1px solid var(--color-white);
@@ -785,6 +785,14 @@ input {
   outline: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+
+  letter-spacing: 0.04em;
+
+  color: var(--color-navy-blue-modal);
 
   transition: border-color var(--transition-main);
 }
